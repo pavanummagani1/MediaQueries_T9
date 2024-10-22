@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media screen and (width<=800px){
+    h2{
+        padding: 20px;
+        text-align: center;
+        color: blue;
+        background-color: black;
+    }
+}
+@media screen and (width>800px){
+    h2{
+        padding: 20px;
+        text-align: center;
+        color: green;
+        background-color: cornsilk;
+    }
+}
